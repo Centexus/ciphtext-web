@@ -7,3 +7,21 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  height: 70px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.btn-primary {
+  padding: 12px 18px;
+  text-decoration: none;
+  background: blue;
+  color: white;
+  border-radius: 12px;
+}
