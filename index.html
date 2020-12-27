@@ -29,6 +29,24 @@
       </h1>
       <a class="btn-primary" href="./how.html">How this works?</a>
     </div>
+    <div class="main-section">
+      <div class="form">
+        <p>Enter the shift number (Any number)</p>
+        <input id="shift" type="text" />
+        <br />
+        <p>Enter your message</p>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+        <p>Result</p>
+        <textarea name="" id="result" cols="30" rows="10"></textarea>
+        <div class="buttons">
+          <button onclick="encrypt()" class="btn-primary">Encrypt</button>
+          <button onclick="decrypt()" class="btn-primary">Decrypt</button>
+        </div>
+        <p>Note: Don't forget to tell the shift number</p>
+        <p>to your friend so that they can</p>
+        <p>decrypt your message</p>
+      </div>
+    </div>
   </body>
   <script src="./js/index.js"></script>
 </html>
