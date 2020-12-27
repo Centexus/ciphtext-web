@@ -55,11 +55,13 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  background: url("../images/bg.jpg") no-repeat center center/cover;
 }
 .main-section .form {
   box-shadow: 2px 2px 10px black;
   padding: 12px;
   border-radius: 12px;
+  background: white;
 }
 .main-section input {
   width: 100%;
