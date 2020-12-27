@@ -90,3 +90,8 @@ footer {
   margin: 5px 0;
   font-weight: normal;
 }
+@media (max-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+}
